@@ -3,8 +3,8 @@
   --indigo: #c45f90;
   --purple: #a16ae8;
   --pink: #fc8bc0;
-  --red: #f85c70;
-  --orange: #ff8882;
+  --red: #15b779;
+  --orange: #1f9612;
   --yellow: #fad02c;
   --green: #a3c14a;
   --teal: #20c997;
@@ -36,6 +36,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 
 html {
@@ -66,7 +67,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #00468d;
   text-align: left;
   background-color: #fff;
 }
