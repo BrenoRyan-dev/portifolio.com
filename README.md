@@ -1,43 +1,75 @@
-# 🚀 Portfólio | Breno Ryan
+# Portfólio Pessoal
 
-Portfólio pessoal de **Breno Ryan Garcia Neves**, desenvolvedor formado em Análise e Desenvolvimento de Sistemas, com projetos em web, APIs, banco de dados e integrações com IA.
+Site de portfólio pessoal desenvolvido para apresentar minha formação, habilidades, projetos e formas de contato em um único lugar.
 
-🔗 **Acesse online:** [brenoryan-dev.github.io/portifolio.com](https://brenoryan-dev.github.io/portifolio.com/)
+🔗 **Online:** [brenoryan-dev.github.io/portifolio.com](https://brenoryan-dev.github.io/portifolio.com/)
 
-## 📌 Sobre
+## Sobre o projeto
 
-Busco minha primeira oportunidade em TI. Este site reúne minha formação, habilidades, projetos e formas de contato.
+É uma página única (single page) com navegação por âncoras entre as seções. O objetivo é servir como cartão de visitas para recrutadores e clientes, reunindo tudo o que preciso mostrar de forma rápida e organizada.
 
-## ✨ Seções
+## Seções do site
 
-- **Sobre:** resumo e formação
-- **Habilidades:** tecnologias que utilizo
-- **Projetos:** projetos publicados com link para cada um
+- **Início:** apresentação e botão de contato
+- **Sobre:** resumo profissional, formação e download do currículo em PDF
+- **Habilidades:** tecnologias separadas em Front-end e Back-end/dados/IA
+- **Projetos:** cards gerados via JavaScript, cada um com link para o projeto online
 - **Qualificações:** formação, certificações e cursos
-- **Contato:** e-mail, LinkedIn e WhatsApp
+- **Contato:** formulário de e-mail e links para WhatsApp, LinkedIn e GitHub
 
-## 🛠️ Tecnologias do site
+## Funcionalidades
 
-HTML · CSS · JavaScript
+- Navegação suave entre seções pelo menu
+- Cards de projetos carregados dinamicamente com JavaScript
+- Formulário de contato que abre o envio de e-mail
+- Botão para baixar o currículo
+- Meta tags configuradas para compartilhamento (título, descrição e imagem)
+- Layout adaptado para diferentes tamanhos de tela
 
-## 💡 Minhas habilidades
+## Tecnologias utilizadas
 
-- **Front-end:** HTML5, CSS3, JavaScript, TypeScript, React, Git/GitHub
-- **Back-end e dados:** Node.js, SQL/MySQL, Python, APIs REST
-- **IA:** integrações com IA
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages (hospedagem)
 
-## ▶️ Como rodar localmente
+## Estrutura de pastas
+
+```
+portifolio.com/
+├── index.html
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── imgs/
+└── README.md
+```
+
+## Como rodar localmente
+
+1. Clone o repositório:
 
 ```bash
 git clone https://github.com/brenoryan-dev/portifolio.com.git
+```
+
+2. Entre na pasta:
+
+```bash
 cd portifolio.com
 ```
 
-Depois, abra o `index.html` no navegador.
+3. Abra o `index.html` no navegador, ou use a extensão **Live Server** do VS Code.
 
-## 📬 Contato
+## Como atualizar os projetos
 
-- 📧 brenoryang@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/breno-ryan)
-- 🐙 [GitHub](https://github.com/brenoryan-dev)
-- 📍 Contagem, MG
+Os projetos exibidos na seção "Projetos" ficam na lista dentro dos arquivos JavaScript em `assets/js/`. Para adicionar um novo, inclua um item na lista com título, descrição e link.
+
+## Deploy
+
+O site é publicado automaticamente pelo **GitHub Pages** a cada push na branch principal.
+
+## Autor
+
+**Breno Ryan**
+[LinkedIn](https://www.linkedin.com/in/breno-ryan) · [GitHub](https://github.com/brenoryan-dev)
